@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="IE-MES:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>IE-MES</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="IE-MES.war">
+      <element id="artifact" artifact-name="IE-MES:war exploded" />
+    </root>
+  </artifact>
+</component>
